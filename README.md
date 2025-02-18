@@ -51,9 +51,3 @@ Esto generará un archivo descomprimido `archivo.txt.rle.decompressed`.
 ## Consideraciones
 - El programa está diseñado para archivos **binarios**, ya que este formato suele contener secuencias repetitivas (por ejemplo, `001101011`), lo que hace que el uso de RLE sea más eficiente. También puede aplicarse a archivos de texto, aunque su efectividad depende del contenido.
 - El método RLE es eficiente en archivos con muchas repeticiones, pero puede no ser útil en archivos sin patrones repetitivos.
-
-## Futuras Mejoras
-- Soporte para archivos binarios.
-- Implementación de cifrado con `-e` y `-d`.
-- Más algoritmos de compresión para mejorar la eficiencia.
-
